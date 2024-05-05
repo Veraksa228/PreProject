@@ -1,14 +1,9 @@
 package jm.task.core.jdbc.util;
 
 
-
-
-import java.lang.reflect.Array;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class Util {
@@ -18,9 +13,6 @@ public class Util {
     private static final String USER = "root";
     private static final String PSW = "1234";
 
-    public static void main(String[] args) {
-
-    }
 
     public Connection getConnection() throws SQLException {
         Connection connection = null;
